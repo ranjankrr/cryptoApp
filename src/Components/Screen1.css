@@ -1,0 +1,70 @@
+
+body{
+    background-color:azure;
+}
+
+.coins-header{
+    display: inline-flex;
+    margin:5px;
+}
+.coins-items{
+    background-color:white;
+    box-shadow: 2px 4px 6px gray;
+    border-top: 10px solid green;
+    width:200px;
+    height:150px;
+    cursor:pointer;
+}
+.coins-items:hover{
+    transform:scale(.99);
+}
+.coins-items li{
+    list-style: none;
+}
+.inputBox{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.inputBox input{
+    border:1px solid green;
+     outline: none;
+     width:100%;
+     padding:10px;
+}
+.paginationBttns{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    width:80%;
+    height:40px
+}
+.paginationBttns a{
+    text-decoration: none;
+    padding:5px;
+    margin:3px;
+    border-radius: 10px;
+    border:1px solid green;
+    color:green;
+    cursor:pointer;
+}
+.paginationBttns a:hover{
+    color:white;
+    background-color:green;
+}
+.paginationActive a{
+    color:white;
+    background-color: green;
+}
+td{
+    cursor:pointer;
+}
+.coins-name{
+    background-color:dimgray;
+    color:white;
+    text-align: center;
+    width:150px;
+    padding:10px;
+    margin:7px;
+}
